@@ -1,0 +1,127 @@
+# =========================
+
+# 🔐 ENV & SECRETS
+
+# =========================
+
+.env
+.env.*
+*.env
+
+# =========================
+
+# 🐍 PYTHON (Backend)
+
+# =========================
+
+**pycache**/
+*.py[cod]
+*.pyo
+*.pyd
+*.sqlite3
+*.db
+
+# virtual environments
+
+venv/
+env/
+.venv/
+
+# pytest / coverage
+
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# mypy / lint
+
+.mypy_cache/
+.dmypy.json
+.pyre/
+
+# =========================
+
+# 🟢 NODE (Frontend)
+
+# =========================
+
+node_modules/
+.next/
+out/
+build/
+dist/
+
+# logs
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# =========================
+
+# 🐳 DOCKER
+
+# =========================
+
+*.log
+docker-compose.override.yml
+
+# =========================
+
+# 🗄 DATABASE
+
+# =========================
+
+*.sql
+*.dump
+
+# =========================
+
+# 🧠 IDE / EDITOR
+
+# =========================
+
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+
+# 🖥 OS FILES
+
+# =========================
+
+.DS_Store
+Thumbs.db
+
+# =========================
+
+# 📦 BUILD / CACHE
+
+# =========================
+
+.cache/
+.tmp/
+temp/
+
+# =========================
+
+# 🔒 KEYS & CERTS
+
+# =========================
+
+*.pem
+*.key
+*.crt
+
+# =========================
+
+# 🧪 MISC
+
+# =========================
+
+*.bak
+*.old
