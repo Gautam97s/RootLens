@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: #f8fafc;
+  color: #111827;
+  font-family: Segoe UI, Arial, sans-serif;
+}
+
+a {
+  color: #1d4ed8;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+input,
+select,
+button {
+  font: inherit;
+}
